@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Dashboard</title>
+  <link rel="stylesheet" href="styles/patients.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>HealthConnect</h2>
+    <ul>
+      <li class="active"><a href="patients.html">Dashboard</a></li>
+      <li><a href="patient-appointments.html">Appointments</a></li>
+      <li><a href="prescription.html">Prescriptions</a></li>
+      <li><a href="patient-settings.html">Settings</a></li>
+      <li><a href="index.html" class="logout">Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>Welcome, Jane Doe</h1>
+      <div class="user-info">
+      </div>
+    </header>
+
+    <section class="overview">
+      <div class="card">
+        <h3>Next Appointment</h3>
+        <p><strong>Dr. Smith</strong> - Oct 20, 2025 at 10:30 AM</p>
+      </div>
+
+      <div class="card">
+        <h3>Current Medication</h3>
+        <p>Amoxicillin 500mg, 3x a day</p>
+      </div>
+
+      <div class="card">
+        <h3>Upcoming Lab Tests</h3>
+        <p>Blood test scheduled for Oct 25, 2025</p>
+      </div>
+    </section>
+
+    <section class="records">
+      <h2>Medical History</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Condition</th>
+            <th>Doctor</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sept 05, 2025</td>
+            <td>Flu</td>
+            <td>Dr. Smith</td>
+            <td><span class="status recovered">Recovered</span></td>
+          </tr>
+          <tr>
+            <td>Aug 15, 2025</td>
+            <td>Allergy</td>
+            <td>Dr. Patel</td>
+            <td><span class="status ongoing">Ongoing</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </div>
+
+</body>
+</html>

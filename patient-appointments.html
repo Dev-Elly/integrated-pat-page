@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointments - Patient Portal</title>
+  <link rel="stylesheet" href="styles/patient-appointments.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Patient Portal</h2>
+    <ul>
+        <li><a href="patients.html">Dashboard</a></li>
+        <li class="active"><a href="patient-appointments.html">Appointments</a></li>
+        <li><a href="prescription.html">Prescriptions</a></li>
+        <li><a href="patient-settings.html">Settings</a></li>
+        <li><a href="index.html" class="logout">Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>My Appointments</h1>
+    </header>
+
+    <section class="appointments">
+      <div class="card">
+        <h3>Appointment #1</h3>
+        <p><strong>Date:</strong> Oct 18, 2025</p>
+        <p><strong>Doctor:</strong> Dr. Brian Omondi</p>
+        <p><strong>Department:</strong> Cardiology</p>
+        <p><strong>Status:</strong> <span class="status confirmed">Confirmed</span></p>
+      </div>
+
+      <div class="card">
+        <h3>Appointment #2</h3>
+        <p><strong>Date:</strong> Oct 25, 2025</p>
+        <p><strong>Doctor:</strong> Dr. Aisha Noor</p>
+        <p><strong>Department:</strong> Dermatology</p>
+        <p><strong>Status:</strong> <span class="status pending">Pending</span></p>
+      </div>
+    </section>
+
+    <button class="new-appointment">+ Book New Appointment</button>
+  </div>
+
+</body>
+</html>

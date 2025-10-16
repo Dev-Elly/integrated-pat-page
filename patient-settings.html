@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings - Patient Portal</title>
+  <link rel="stylesheet" href="styles/patient-settings.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Patient Portal</h2>
+    <ul>
+        <li><a href="patients.html">Dashboard</a></li>
+        <li><a href="patient-appointments.html">Appointments</a></li>
+        <li><a href="prescription.html">Prescriptions</a></li>
+        <li class="active"><a href="patient-settings.html">Settings</a></li>
+        <li><a href="index.html" class="logout">Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>Account Settings</h1>
+    </header>
+
+    <section class="settings">
+      <div class="settings-card">
+        <h3>Personal Information</h3>
+        <form>
+          <label>Full Name</label>
+          <input type="text" value="Jane Achieng">
+
+          <label>Email</label>
+          <input type="email" value="jane.achieng@gmail.com">
+
+          <label>Phone</label>
+          <input type="text" value="+254 712 345 678">
+
+          <button type="submit">Update Info</button>
+        </form>
+      </div>
+
+      <div class="settings-card">
+        <h3>Change Password</h3>
+        <form>
+          <label>Old Password</label>
+          <input type="password" placeholder="Enter old password">
+
+          <label>New Password</label>
+          <input type="password" placeholder="Enter new password">
+
+          <button type="submit" class="change-pass">Save Password</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
